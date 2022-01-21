@@ -6,7 +6,7 @@ public class hello_selenium {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver","C:\\Users\\egaku\\Downloads\\chromedriver_win32\\chromedriver.exe");
         WebDriver obj = new ChromeDriver();
-        obj.get("https://www.google.com");
+        obj.get("https://www.twitter.com");
 
     }
 }
